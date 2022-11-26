@@ -1,0 +1,29 @@
+Object detection of low-light images using the Exclusively Dark (ExDark) dataset.
+
+Images with less visibility and images that are taken at night time can pose a challenge to Computer vision and deep learning algorithms. 
+Hence, in this research, we plan to test out a dataset that consists of images taken in low light with multiple deep learning/object detection algorithms.
+
+How is object detection different from image classification? 
+Image classification assigns a label to the entire image whereas object detection involves assigning a label to each individual object in the image with the help of bounding boxes, but the building blocks of both these algorithms is the same. (CNNs)
+
+The Exclusively Dark Image Dataset (ExDark) contains 7363 low - light images. Some of these images include multiple objects of the same class or from other classes as well. They have also provided the annotation file, which contains the bounding boxes of the objects in the images, along with the images.
+Divided into 12 classes - Bicycle, Boat, Bus, Bottle, Cat, Car, Chair, Cup, Dog, Motorbike, People and Table.
+Manual split of data - 80/20 ratio of training and testing set.
+About 500 images of each class for training hence no need of data augmentation. 
+
+C. S. Chan, Exclusively Dark Image Dataset: GitHub. [Online]. Available: https://github.com/cs-chan/Exclusively-Dark-Image-Dataset
+
+The proposed solution is to use CNN algorithms such as Fast R-CNN (Region-based Convolutional Neural Network), Faster R-CNN, and YOLOv3 to train the images in the ExDark Dataset. 
+The performance and efficiency of these algorithms in accurately classifying the low-light images are compared.
+The second experiment is done using the same methods on the dataset after enhancing the images (Histogram equalization).
+
+
+Image enhancement methods can be used to enhance a low-light image to make the darker areas of the image brighter to improve the accuracy of the algorithm.
+There are many popular image enhancement techniques:
+Histogram based equalization
+Retinex based methods
+Camera Response Model and fusion based methods
+Learning based methods
+
+
+
